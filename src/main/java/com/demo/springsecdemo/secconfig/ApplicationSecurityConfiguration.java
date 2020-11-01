@@ -22,7 +22,7 @@ public class ApplicationSecurityConfiguration extends WebSecurityConfigurerAdapt
 			.and()
 			.withUser("Sachin")
 			.password("Tendulkar")
-			.roles("USER");
+			.roles("ADMIN");
 	}
 	
 	@Bean
